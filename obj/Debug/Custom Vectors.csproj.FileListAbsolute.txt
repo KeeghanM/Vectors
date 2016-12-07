@@ -1,0 +1,6 @@
+D:\Users\Keeghan\Programming\Vectors\Custom Vectors\bin\Debug\Custom Vectors.exe.config
+D:\Users\Keeghan\Programming\Vectors\Custom Vectors\bin\Debug\Custom Vectors.exe
+D:\Users\Keeghan\Programming\Vectors\Custom Vectors\bin\Debug\Custom Vectors.pdb
+D:\Users\Keeghan\Programming\Vectors\Custom Vectors\obj\Debug\Custom Vectors.csprojResolveAssemblyReference.cache
+D:\Users\Keeghan\Programming\Vectors\Custom Vectors\obj\Debug\Custom Vectors.exe
+D:\Users\Keeghan\Programming\Vectors\Custom Vectors\obj\Debug\Custom Vectors.pdb
