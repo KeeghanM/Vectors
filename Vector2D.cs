@@ -2,9 +2,9 @@
 
 class Vector2D
 {
-    public float X;
-    public float Y;
-    public float Mag;
+    float X;
+    float Y;
+    float Mag;
 
     // If no X or Y info is passed at creation
     // we want to create the Vector at 0,0
@@ -146,7 +146,7 @@ class Vector2D
     // Dir returns an angle in radians, CCW, for this
     // vector.
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/atan2 -- I know its a JS reference but seriously. it helps!
-    public float Dir()
+    public float GetDir()
     {
         float direction = (float) Math.Atan2(this.Y, this.X);
         return direction;
@@ -155,9 +155,9 @@ class Vector2D
     // Want the Vector to point in a new direction?
     // Pass this method a direction in Radians and...
     // TADA!!
-    public Vector2D Rotate(float amountToRotate)
+    public Vector2D SetDir(float amountToRotate)
     {
-        var newDirection = this.Dir() + amountToRotate;
+        var newDirection = this.GetDir() + amountToRotate;
         var mag = this.GetMag();
 
         this.X = (float) Math.Cos(amountToRotate) * mag;
